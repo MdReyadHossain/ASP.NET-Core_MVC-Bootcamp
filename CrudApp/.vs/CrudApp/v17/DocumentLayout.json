@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\user\\pendinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\user\\pendinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\migrations\\20240408214632_id changes to primary key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\migrations\\20240408214632_id changes to primary key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|d:\\study\\coding\\asp .net core\\crud_mvc\\crudapp\\crudapp\\migrations\\20240408214217_init database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D198859F-AC03-49BC-8DEA-692691CE389F}|CrudApp\\CrudApp.csproj|solutionrelative:crudapp\\migrations\\20240408214217_init database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PendingList.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\PendingList.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\User\\PendingList.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\PendingList.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\User\\PendingList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T16:45:48.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CrudApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwDoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:03:11.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "CrudApp\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:02:36.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Program.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Program.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Program.cs",
+              "RelativeToolTip": "CrudApp\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:47:27.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:04:53.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T19:46:44.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Models\\Entities\\User.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "CrudApp\\Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:29:22.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\UserList.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\User\\UserList.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\UserList.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\User\\UserList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T17:58:46.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\User\\EditUser.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\User\\EditUser.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\User\\EditUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T18:57:34.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\appsettings.json",
+              "RelativeDocumentMoniker": "CrudApp\\appsettings.json",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\appsettings.json",
+              "RelativeToolTip": "CrudApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T21:24:31.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\DTOs\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "CrudApp\\DTOs\\CreateUserDTO.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\DTOs\\CreateUserDTO.cs",
+              "RelativeToolTip": "CrudApp\\DTOs\\CreateUserDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:35:49.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240408214632_id changes to primary key.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Migrations\\20240408214632_id changes to primary key.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Migrations\\20240408214632_id changes to primary key.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Migrations\\20240408214632_id changes to primary key.cs",
+              "RelativeToolTip": "CrudApp\\Migrations\\20240408214632_id changes to primary key.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:46:32.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CrudApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T19:46:53.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240408214217_init database.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Migrations\\20240408214217_init database.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Migrations\\20240408214217_init database.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Migrations\\20240408214217_init database.cs",
+              "RelativeToolTip": "CrudApp\\Migrations\\20240408214217_init database.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:42:18.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CrudApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CrudApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:46:34.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
