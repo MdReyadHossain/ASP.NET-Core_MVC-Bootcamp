@@ -21,6 +21,7 @@ namespace CrudApp.DTOs
 
         [Required(ErrorMessage = "Username is required")]
         public string UserName { get; set; }
+
         public bool Status { get; set; }
     }
 }

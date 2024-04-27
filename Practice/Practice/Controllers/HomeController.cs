@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Practice.Models;
+using Practice.Models.Repository;
 
 namespace Practice.Controllers
 {
@@ -7,7 +8,8 @@ namespace Practice.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var cars = VehicleRepo.GetAllVehicles();
+            return View(cars);
         }
 
         public IActionResult Vehicle(int? id, string? name)

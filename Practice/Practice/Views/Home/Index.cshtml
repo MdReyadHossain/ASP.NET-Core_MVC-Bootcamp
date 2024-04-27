@@ -1,6 +1,28 @@
-﻿<h3>Vehicle</h3>
+﻿@using Practice.Models
+@model List<Vehicle>
+@section title{
+    List
+}
+
 <ul>
     <li><a href="/home/vehicle/1/bmw">Car</a></li>
     <li><a href="/home/vehicle/2/bajaj">Motorbike</a></li>
     <li><a href="/home/vehicle/3/titanic">Ship</a></li>
 </ul>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Price</td>
+    </tr>
+    @foreach (var vehicle in Model)
+    {
+        <tr>
+            <td>@vehicle.Id</td>
+            <td>@vehicle.Name</td>
+            <td>@vehicle.Price</td>
+        </tr>
+    }
+    
+</table>

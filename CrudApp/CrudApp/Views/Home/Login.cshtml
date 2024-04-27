@@ -1,0 +1,29 @@
+﻿@model CrudApp.DTOs.LoginDTO
+
+<h3>Login</h3>
+
+<form class="w-50" method="post">
+    <div class="my-2">
+        <label for="username">Username</label>
+        <input class="form-control" type="text" name="username" asp-for="Username" />
+        <span id="error-username" class="text-danger">@Html.ValidationMessageFor(model => model.Username)</span>
+    </div>
+    <div class="my-2">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" name="password" asp-for="Password" />
+        <span id="error-password" class="text-danger">@Html.ValidationMessageFor(model => model.Password)</span>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Login" />
+</form>
+
+
+<script>
+    var errorUsername = document.getElementById("error-username");
+    var errorPassword = document.getElementById("error-password");
+    if (errorUsername.innerText != "" || errorPassword.innerText != "") {
+        setTimeout(function () {
+            errorUsername.innerText = "";
+            errorPassword.innerText = "";
+        }, 3000)
+    }
+</script>

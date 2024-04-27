@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\Practice.csproj": {}
+    "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj": {}
   },
   "projects": {
-    "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\Practice.csproj": {
+    "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\Practice.csproj",
+        "projectUniqueName": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\Practice.csproj",
+        "projectPath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj",
         "packagesPath": "C:\\Users\\reyad\\.nuget\\packages\\",
-        "outputPath": "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\obj\\",
+        "outputPath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SFdGTYmvwGISA5LM4MyEJ0haySLEDhYil+F9XEUqFuzACBZV24v4+MGfvS26PNOBh0mDLm4JSU9tuCHWm+Gvg==",
+  "dgSpecHash": "XpL+J6fnNNg5ErYxVTrDnLN46x3PPX0oF9YsHH9/+OE6g2YuXl48yibnGO6VIeTQ/dCfvOKTHv99JjVuke3oeQ==",
   "success": true,
-  "projectFilePath": "J:\\Study\\Coding\\ASP .NET Core\\Practice\\Practice\\Practice.csproj",
+  "projectFilePath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

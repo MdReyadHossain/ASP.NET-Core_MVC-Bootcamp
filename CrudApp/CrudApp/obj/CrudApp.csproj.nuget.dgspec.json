@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\CrudApp.csproj": {}
+    "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\CrudApp.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\CrudApp.csproj": {
+    "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\CrudApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\CrudApp.csproj",
+        "projectUniqueName": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\CrudApp.csproj",
         "projectName": "CrudApp",
-        "projectPath": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\CrudApp.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Coding\\ASP .NET Core\\Crud_MVC\\CrudApp\\CrudApp\\obj\\",
+        "projectPath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\CrudApp.csproj",
+        "packagesPath": "C:\\Users\\reyad\\.nuget\\packages\\",
+        "outputPath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\MS Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reyad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
