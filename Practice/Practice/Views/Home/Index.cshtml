@@ -1,12 +1,12 @@
-﻿@using Practice.Models
-@model List<Vehicle>
+﻿@model List<Vehicle>
+
 @section title{
     List
 }
 
 <ul>
-    <li><a href="/home/vehicle/1/bmw">Car</a></li>
-    <li><a href="/home/vehicle/2/bajaj">Motorbike</a></li>
+    <li><a class="" asp-action="Vehicle" asp-controller="Home" asp-route-name="BMW" asp-route-id="1">Car</a></li>
+    <li><a class="" asp-action="Vehicle" asp-controller="Home" asp-route-id="2" asp-route-name="Bajaj">Motorbike</a></li>
     <li><a href="/home/vehicle/3/titanic">Ship</a></li>
 </ul>
 

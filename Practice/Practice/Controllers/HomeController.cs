@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Practice.Models;
 using Practice.Models.Repository;
+using System.Reflection.PortableExecutable;
 
 namespace Practice.Controllers
 {
@@ -12,7 +13,16 @@ namespace Practice.Controllers
             return View(cars);
         }
 
-        public IActionResult Vehicle(int? id, string? name)
+        /*
+        [FromQuery] - Gets values from the query string.
+        [FromRoute] - Gets values from route data.
+        [FromForm] - Gets values from posted form fields.
+        [FromBody] - Gets values from the request body.
+        [FromHeader] - Gets values from HTTP headers.
+
+        if not specify model biniding parameter, it would be work as any of them
+        */
+        public IActionResult Vehicle([FromQuery]int? id, string? name)
         {
             /* if(id.HasValue) 
                  return new ContentResult { Content = id.ToString() };
