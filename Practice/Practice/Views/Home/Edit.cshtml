@@ -1,0 +1,16 @@
+﻿@model Vehicle
+
+@section title {
+    Manage a car
+}
+
+@section headingButton {
+    <a class="btn btn-danger" asp-action="Delete" asp-controller="Home">Delete</a>
+}
+
+<form class="w-50" method="post" asp-action="Edit" asp-controller="Home">
+    <input asp-for="Id" hidden/>
+    <input class="form-control my-3" type="text" asp-for="Name" placeholder="Car name" />
+    <input class="form-control my-3" type="number" asp-for="Price" placeholder="Price" />
+    <input class="btn btn-success my-3" type="submit" value="Save" />
+</form>

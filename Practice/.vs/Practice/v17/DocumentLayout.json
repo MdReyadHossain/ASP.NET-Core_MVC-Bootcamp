@@ -7,24 +7,28 @@
       "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\home\\vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\home\\vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\models\\repository\\vehiclerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\models\\repository\\vehiclerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\home\\vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\home\\vehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,12 +39,16 @@
       "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\models\\repository\\vehiclerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\models\\repository\\vehiclerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|solutionrelative:practice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3744579F-9496-4E9E-9209-CC70543C2B29}|Practice\\Practice.csproj|j:\\study\\coding\\asp .net core\\mvc\\practice\\practice\\practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -54,50 +62,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\appsettings.json",
-              "RelativeDocumentMoniker": "Practice\\appsettings.json",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\appsettings.json",
-              "RelativeToolTip": "Practice\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T07:19:19.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Practice\\Views\\_ViewStart.cshtml",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Practice\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T09:04:41.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Practice\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Practice\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T07:14:00.308Z",
+              "WhenOpened": "2024-04-19T07:14:00.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Practice\\Controllers\\HomeController.cs",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Practice\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:31:51.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Practice\\Models\\Vehicle.cs",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Practice\\Models\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T21:46:37.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Vehicle.cshtml",
               "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Vehicle.cshtml",
               "RelativeDocumentMoniker": "Practice\\Views\\Home\\Vehicle.cshtml",
@@ -110,32 +117,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Practice\\Models\\Vehicle.cs",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Vehicle.cs",
-              "RelativeToolTip": "Practice\\Models\\Vehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:46:37.923Z"
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\Home\\Create.cshtml",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Practice\\Views\\Home\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T11:55:08.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Practice\\Controllers\\HomeController.cs",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Practice\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABoAAAAfAAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\Home\\Index.cshtml",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Practice\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T17:25:01.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleRepo.cs",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Repository\\VehicleRepo.cs",
+              "RelativeDocumentMoniker": "Practice\\Models\\Repository\\VehicleRepo.cs",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Repository\\VehicleRepo.cs",
+              "RelativeToolTip": "Practice\\Models\\Repository\\VehicleRepo.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T20:31:51.855Z",
+              "WhenOpened": "2024-04-20T10:37:21.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Practice\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T17:58:26.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Practice\\Views\\_ViewStart.cshtml",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Practice\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T09:04:41.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\appsettings.json",
+              "RelativeDocumentMoniker": "Practice\\appsettings.json",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\appsettings.json",
+              "RelativeToolTip": "Practice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-20T07:19:19.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Program.cs",
+              "RelativeDocumentMoniker": "Practice\\Program.cs",
+              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Program.cs",
+              "RelativeToolTip": "Practice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:28:44.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Practice\\Views\\_ViewImports.cshtml",
@@ -143,50 +213,11 @@
               "RelativeToolTip": "Practice\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T17:29:51.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T17:29:51.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Program.cs",
-              "RelativeDocumentMoniker": "Practice\\Program.cs",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Program.cs",
-              "RelativeToolTip": "Practice\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:28:44.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Practice\\Views\\Home\\Index.cshtml",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Practice\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T17:25:01.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VehicleRepo.cs",
-              "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Repository\\VehicleRepo.cs",
-              "RelativeDocumentMoniker": "Practice\\Models\\Repository\\VehicleRepo.cs",
-              "ToolTip": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Models\\Repository\\VehicleRepo.cs",
-              "RelativeToolTip": "Practice\\Models\\Repository\\VehicleRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:37:21.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Practice",
               "DocumentMoniker": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\Practice\\Practice\\Practice.csproj",
               "RelativeDocumentMoniker": "Practice\\Practice.csproj",

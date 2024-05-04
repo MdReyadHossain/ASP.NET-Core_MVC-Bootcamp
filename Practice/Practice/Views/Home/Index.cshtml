@@ -4,17 +4,16 @@
     List
 }
 
-<ul>
-    <li><a class="" asp-action="Vehicle" asp-controller="Home" asp-route-name="BMW" asp-route-id="1">Car</a></li>
-    <li><a class="" asp-action="Vehicle" asp-controller="Home" asp-route-id="2" asp-route-name="Bajaj">Motorbike</a></li>
-    <li><a href="/home/vehicle/3/titanic">Ship</a></li>
-</ul>
+@section headingButton {
+    <a class="btn btn-primary" asp-action="Create" asp-controller="Home">+ Add New Car</a>
+}
 
-<table>
+<table class="table">
     <tr>
-        <td>ID</td>
-        <td>Name</td>
-        <td>Price</td>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Edit</th>
     </tr>
     @foreach (var vehicle in Model)
     {
@@ -22,6 +21,7 @@
             <td>@vehicle.Id</td>
             <td>@vehicle.Name</td>
             <td>@vehicle.Price</td>
+            <td><a asp-action="Edit" asp-controller="Home" asp-route-id="@vehicle.Id">Manage</a></td>
         </tr>
     }
     

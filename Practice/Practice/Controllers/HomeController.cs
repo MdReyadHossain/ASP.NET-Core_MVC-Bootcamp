@@ -22,12 +22,14 @@ namespace Practice.Controllers
 
         if not specify model biniding parameter, it would be work as any of them
         */
-        public IActionResult Vehicle([FromQuery]int? id, string? name)
+        public IActionResult Vehicle([FromRoute] int? id, string? name)
         {
-            /* if(id.HasValue) 
-                 return new ContentResult { Content = id.ToString() };
-             else 
-                 return new ContentResult { Content = "invalid id!" };*/
+            /* 
+            if(id.HasValue) 
+                return new ContentResult { Content = id.ToString() };
+            else 
+                return new ContentResult { Content = "invalid id!" };
+            */
 
             var vehicle = new Vehicle
             {
@@ -35,6 +37,39 @@ namespace Practice.Controllers
                 Name = name ?? string.Empty,
             };
 
+            return View(vehicle);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Vehicle vehicle)
+        {
+            if (ModelState.IsValid)
+            {
+                VehicleRepo.CreateVehicle(vehicle);
+                return RedirectToAction("Index", "Home");
+            }
+            return View(vehicle);
+        }
+
+        public IActionResult Edit(int id)
+        {
+            var vechicle = VehicleRepo.GetVehicle(id);
+            return View(vechicle);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Vehicle vehicle)
+        {
+            if(ModelState.IsValid)
+            {
+                VehicleRepo.UpdateVehicle(vehicle.Id, vehicle);
+                return RedirectToAction("Index", "Home");
+            }
             return View(vehicle);
         }
     }
