@@ -8,8 +8,4 @@
     <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Vehicle List</a>
 }
 
-<form class="w-50" method="post" asp-action="Create" asp-controller="Home">
-    <input class="form-control my-3" type="text" asp-for="Name" placeholder="Car name" />
-    <input class="form-control my-3" type="number" asp-for="Price" placeholder="Price" />
-    <input class="btn btn-success my-3" type="submit" value="Create" />
-</form>
+<partial name="_Form" model="Model"/>

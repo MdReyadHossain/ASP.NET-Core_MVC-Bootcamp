@@ -42,6 +42,7 @@ namespace Practice.Controllers
 
         public IActionResult Create()
         {
+            ViewBag.Action = "Create";
             return View();
         }
 
@@ -53,11 +54,14 @@ namespace Practice.Controllers
                 VehicleRepo.CreateVehicle(vehicle);
                 return RedirectToAction("Index", "Home");
             }
+            ViewBag.Action = "Create";
             return View(vehicle);
         }
 
         public IActionResult Edit(int id)
         {
+            ViewBag.Action = "Edit";
+
             var vechicle = VehicleRepo.GetVehicle(id);
             return View(vechicle);
         }
@@ -70,7 +74,14 @@ namespace Practice.Controllers
                 VehicleRepo.UpdateVehicle(vehicle.Id, vehicle);
                 return RedirectToAction("Index", "Home");
             }
+            ViewBag.Action = "Edit";
             return View(vehicle);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            VehicleRepo.DeleteVehicle(id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

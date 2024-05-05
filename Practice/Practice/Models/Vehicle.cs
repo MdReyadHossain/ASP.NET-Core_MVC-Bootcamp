@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Practice.Models
 {
@@ -6,10 +7,11 @@ namespace Practice.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Name should not be empty!")]
         public string Name { get; set; }
 
-        [Required]
-        public double Price { get; set; }
+        [Required(ErrorMessage = "Price should not be empty!")]
+        [RegularExpression(@"^\$?\d+(\.(\d{2}))?$")]
+        public decimal Price { get; set; }
     }
 }

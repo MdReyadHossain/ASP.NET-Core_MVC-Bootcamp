@@ -2,7 +2,7 @@
 {
     public static class VehicleRepo
     {
-        private static List<Vehicle> _Vehicles = [
+        private readonly static List<Vehicle> _Vehicles = [
             new Vehicle { Id = 1, Name = "BMW", Price = 120 },
             new Vehicle { Id = 2, Name = "Pagani", Price = 555 }
         ];

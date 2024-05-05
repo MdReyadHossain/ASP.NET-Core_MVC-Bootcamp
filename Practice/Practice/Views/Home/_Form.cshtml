@@ -1,0 +1,17 @@
+﻿@* pertial view file *@
+@model Vehicle
+@{
+    string action = ViewBag.Action ?? string.Empty;
+}
+
+<form class="w-50" method="post" asp-action="@action" asp-controller="Home">
+    @if (action.ToUpper() == "EDIT")
+    {
+        <input asp-for="Id" hidden />
+    }
+    <input class="form-control my-3" type="text" asp-for="Name" placeholder="Car name" />
+    <span class="text-danger" asp-validation-for="Name"></span>
+    <input class="form-control my-3" type="number" asp-for="Price" placeholder="Price" />
+    <span class="text-danger" asp-validation-for="Price"></span> <br />
+    <input class="btn btn-success my-3" type="submit" value="Save" />
+</form>

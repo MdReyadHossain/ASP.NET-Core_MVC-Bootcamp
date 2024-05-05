@@ -13,7 +13,7 @@
         <th>ID</th>
         <th>Name</th>
         <th>Price</th>
-        <th>Edit</th>
+        <th colspan="2">Action</th>
     </tr>
     @foreach (var vehicle in Model)
     {
@@ -21,8 +21,16 @@
             <td>@vehicle.Id</td>
             <td>@vehicle.Name</td>
             <td>@vehicle.Price</td>
-            <td><a asp-action="Edit" asp-controller="Home" asp-route-id="@vehicle.Id">Manage</a></td>
+            <td><a asp-action="Edit" asp-controller="Home" asp-route-id="@vehicle.Id">Edit</a></td>
+            <td><a asp-action="Delete" asp-controller="Home" asp-route-id="@vehicle.Id" onclick="return DeleteVehicle()">Delete</a></td>
         </tr>
     }
-    
 </table>
+
+@section script {
+    <script>
+        function deleteVehicle() {
+            return confirm("Are you sure want to delete this vehicle?");
+        }
+    </script>
+}
