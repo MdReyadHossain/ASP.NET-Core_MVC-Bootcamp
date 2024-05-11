@@ -1,4 +1,14 @@
 ﻿@model CrudApp.DTOs.LoginDTO
+@{
+    if (TempData["success"] != null)
+    {
+        <p class="alert alert-success"><i class="fa-solid fa-circle-check"></i> @TempData["success"]</p>
+    }
+    if (TempData["error"] != null)
+    {
+        <p class="alert alert-danger"><i class="fa-solid fa-circle-exclamation"></i> @TempData["error"]</p>
+    }
+}
 
 <h3>Login</h3>
 

@@ -19,60 +19,11 @@ namespace CrudApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Create(CreateUserDTO user)
-        {
-            var existedUser = (from dbUser in dbContext.Users
-                                where user.UserName == dbUser.UserName || user.Email == dbUser.Email
-                                select dbUser).SingleOrDefault();
-
-            ModelState.Remove("Phone");
-            if (!ModelState.IsValid)
-            {
-                ViewBag.ErrorMsg = "Please fill the input field properly!";
-            }
-            else if(existedUser != null)
-            {
-                ViewBag.ErrorMsg = "User has already exist!";
-            }
-            else if(user.Password == user.RePassword)
-            {
-                var newUser = new User
-                {
-                    Name = user.Name,
-                    Email = user.Email,
-                    Phone = user.Phone ?? "",
-                    Password = user.Password,
-                    UserName = user.UserName,
-                    Status = false
-                };
-                await dbContext.Users.AddAsync(newUser);
-                await dbContext.SaveChangesAsync();
-                /*ViewBag.SuccessMsg = "User Created Succesful!";*/
-                TempData["success"] = "User Created Succesful!";
-
-                ModelState.Clear();
-                return RedirectToAction("PendingList", "User");
-            }
-            else
-            {
-                ViewBag.ErrorMsg = "Password not Matched!";
-            }
-
-            return View();
-        }
-
-        [HttpGet]
         public async Task<IActionResult> UserList()
         {
             var users = await dbContext.Users
                                 .OrderByDescending(user => user.Id)
-                                .Where(user => user.Status == true)
+                                .Where(user => user.Status == true && user.Type != "admin")
                                 .ToListAsync();
             return View(users);
         }
@@ -82,7 +33,7 @@ namespace CrudApp.Controllers
         {
             var users = await dbContext.Users
                                 .OrderByDescending(user => user.Id)
-                                .Where(user=>user.Status == false)
+                                .Where(user=>user.Status == false && user.Type != "admin")
                                 .ToListAsync();
             return View(users);
         }

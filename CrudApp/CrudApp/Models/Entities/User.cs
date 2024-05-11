@@ -13,5 +13,6 @@ namespace CrudApp.Models.Entities
         public string Phone { get; set; }
         public string UserName { get; set; }
         public bool Status { get; set; }
+        public string Type { get; set; }
     }
 }

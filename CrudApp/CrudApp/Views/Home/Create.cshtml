@@ -1,9 +1,9 @@
 ﻿@model CrudApp.DTOs.CreateUserDTO
 
 @{
-    if (ViewBag.ErrorMsg != null)
+    if (TempData["error"] != null)
     {
-        <p class="alert alert-danger"><i class="fa-solid fa-circle-exclamation"></i> @ViewBag.ErrorMsg</p>
+        <p class="alert alert-danger"><i class="fa-solid fa-circle-exclamation"></i> @TempData["error"]</p>
     }
 }
 <h2>Create User Profile</h2>

@@ -1,16 +1,22 @@
+using CrudApp.Constant;
 using CrudApp.DTOs;
 using CrudApp.Models;
+using CrudApp.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace CrudApp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext dbContext;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, AppDbContext dbContext)
         {
+            this.dbContext = dbContext;
             _logger = logger;
         }
 
@@ -31,6 +37,56 @@ namespace CrudApp.Controllers
         }
 
         [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateUserDTO user)
+        {
+            var existedUser = (from dbUser in dbContext.Users
+                               where user.UserName == dbUser.UserName || user.Email == dbUser.Email
+                               select dbUser).SingleOrDefault();
+
+            ModelState.Remove("Phone");
+            if (!ModelState.IsValid)
+            {
+                TempData["error"] = "Please fill the input field properly!";
+            }
+            else if (existedUser != null)
+            {
+                TempData["error"] = "User has already exist!";
+            }
+            else if (user.Password == user.RePassword)
+            {
+                var newUser = new User
+                {
+                    Name = user.Name,
+                    Email = user.Email,
+                    Phone = user.Phone ?? "",
+                    Password = user.Password,
+                    UserName = user.UserName,
+                    Status = false,
+                    Type = "user"
+                };
+                await dbContext.Users.AddAsync(newUser);
+                await dbContext.SaveChangesAsync();
+                /*ViewBag.SuccessMsg = "User Created Succesful!";*/
+                TempData["success"] = "User Created Succesful!";
+
+                ModelState.Clear();
+                return RedirectToAction(nameof(Login));
+            }
+            else
+            {
+                TempData["error"] = "Password not Matched!";
+            }
+
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
@@ -39,6 +95,26 @@ namespace CrudApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginDTO login)
         {
+            if (!ModelState.IsValid)
+            {
+                var user = (from dbUser in dbContext.Users
+                            where dbUser.UserName == login.Username && dbUser.Password == login.Password
+                            select dbUser).FirstOrDefault();
+
+                if (user != null)
+                {
+                    var claims = new List<Claim> {
+                        new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                        new Claim(ClaimTypes.Name, user.Name),
+                        new Claim(ClaimTypes.Email, user.Email),
+                        new Claim("Phone", user.Phone),
+                        new Claim("UserName", user.UserName),
+                    };
+
+                    var identity = new ClaimsIdentity(claims, AuthConstant.IDENTITY_AUTH_TYPE);
+                }
+            }
+            TempData["error"] = "Invalid login credential";
             return View(login);
         }
     }
