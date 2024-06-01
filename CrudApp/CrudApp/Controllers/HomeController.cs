@@ -2,6 +2,7 @@ using CrudApp.Constant;
 using CrudApp.DTOs;
 using CrudApp.Models;
 using CrudApp.Models.Entities;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -95,11 +96,13 @@ namespace CrudApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginDTO login)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                var user = (from dbUser in dbContext.Users
-                            where dbUser.UserName == login.Username && dbUser.Password == login.Password
-                            select dbUser).FirstOrDefault();
+                var user = await (from dbUser in dbContext.Users
+                            where dbUser.UserName == login.Username && 
+                                    dbUser.Password == login.Password && 
+                                    dbUser.Type.ToUpper() == "ADMIN"
+                            select dbUser).SingleOrDefaultAsync();
 
                 if (user != null)
                 {
@@ -112,6 +115,12 @@ namespace CrudApp.Controllers
                     };
 
                     var identity = new ClaimsIdentity(claims, AuthConstant.IDENTITY_AUTH_TYPE);
+                    ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(identity);
+                    await HttpContext.SignInAsync(AuthConstant.IDENTITY_AUTH_TYPE, claimsPrincipal);
+
+                    TempData["success"] = "Login Successfull!";
+                    ModelState.Clear();
+                    return View();
                 }
             }
             TempData["error"] = "Invalid login credential";

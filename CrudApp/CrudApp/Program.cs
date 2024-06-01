@@ -1,3 +1,4 @@
+using CrudApp.Constant;
 using CrudApp.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,11 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("UserPortal")));
+
+builder.Services.AddAuthentication().AddCookie(AuthConstant.IDENTITY_AUTH_TYPE, options =>
+{
+    options.Cookie.Name = AuthConstant.IDENTITY_AUTH_TYPE;
+});
 
 var app = builder.Build();
 
