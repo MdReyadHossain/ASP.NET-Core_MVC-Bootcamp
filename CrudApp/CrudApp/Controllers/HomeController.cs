@@ -120,11 +120,17 @@ namespace CrudApp.Controllers
 
                     TempData["success"] = "Login Successfull!";
                     ModelState.Clear();
-                    return View();
+                    return RedirectToAction("UserList", "User");
                 }
             }
             TempData["error"] = "Invalid login credential";
             return View(login);
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(AuthConstant.IDENTITY_AUTH_TYPE);
+            return RedirectToAction(nameof(Login));
         }
     }
 }

@@ -7,13 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<AppDbContext>(options => 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("UserPortal")));
-
 builder.Services.AddAuthentication().AddCookie(AuthConstant.IDENTITY_AUTH_TYPE, options =>
 {
     options.Cookie.Name = AuthConstant.IDENTITY_AUTH_TYPE;
+    options.LoginPath = "/Home/Login";
 });
+
+builder.Services.AddDbContext<AppDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("UserPortal")));
 
 var app = builder.Build();
 
@@ -30,7 +31,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
+/*app.UseAuthentication();*/
 app.UseAuthorization();
     
 app.MapControllerRoute(
