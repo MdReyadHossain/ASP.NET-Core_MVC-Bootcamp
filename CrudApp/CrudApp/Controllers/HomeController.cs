@@ -73,7 +73,6 @@ namespace CrudApp.Controllers
                 };
                 await dbContext.Users.AddAsync(newUser);
                 await dbContext.SaveChangesAsync();
-                /*ViewBag.SuccessMsg = "User Created Succesful!";*/
                 TempData["success"] = "User Created Succesful!";
 
                 ModelState.Clear();
@@ -120,7 +119,7 @@ namespace CrudApp.Controllers
 
                     TempData["success"] = "Login Successfull!";
                     ModelState.Clear();
-                    return RedirectToAction("UserList", "User");
+                    return RedirectToAction("UserList", "Admin");
                 }
             }
             TempData["error"] = "Invalid login credential";

@@ -1,0 +1,39 @@
+﻿@model List<CrudApp.Models.Entities.User>
+
+<h3>Pending Users</h3>
+<table class="table">
+    <tr class="text-center">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact Number</th>
+        <th>Action</th>
+    </tr>
+    @foreach(var user in Model)
+    {
+        <tr class="text-center">
+            <td>@user.Id</td>
+            <td>@user.Name</td>
+            <td>
+                <a href="mailto:@user.Email">@user.Email</a>
+            </td>
+            @if(user.Phone != "")
+            {
+                <td>
+                    <a href="tel:@user.Phone">@user.Phone</a>
+                </td>
+            } else
+            {
+                <td>--</td>
+            }
+            <td>
+                <a class="btn btn-outline-success" asp-controller="Admin" asp-action="AcceptUser" asp-route-uid="@user.Uid">
+                    <i class="fa-solid fa-check"></i>   
+                </a>
+                <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteUser" asp-route-isUserList=false asp-route-uid="@user.Uid">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

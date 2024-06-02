@@ -1,0 +1,45 @@
+﻿@model CrudApp.Models.Entities.User
+
+@{
+    if (ViewBag.ErrorMsg != null)
+    {
+        <p class="alert alert-danger"><i class="fa-solid fa-circle-exclamation"></i> @ViewBag.ErrorMsg</p>
+    }
+}
+<h2>Edit User Profile</h2>
+<form method="post">
+    <div class="d-flex row">
+        <div class="w-50">
+            <h5>Personal Information</h5>
+            <input type="text" id="uid" class="form-control" name="uid" asp-for="Uid" hidden />
+            <div class="mt-2">
+                <label class="form-label" for="id">Id* :</label>
+                <input type="number" id="id" class="form-control" name="id" asp-for="Id" readonly/>
+            </div>
+            <div class="mt-2">
+                <label class="form-label" for="name">Name* :</label>
+                <input type="text" id="name" class="form-control" name="name" asp-for="Name" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Name)</span>
+            </div>
+            <div class="mt-2">
+                <label class="form-label" for="email">Email* :</label>
+                <input type="email" id="email" class="form-control" name="email" asp-for="Email" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
+            </div>
+            <div class="mt-2">
+                <label class="form-label" for="phone">Contact Number:</label>
+                <input type="text" id="phone" class="form-control" name="phone" asp-for="Phone" />
+            </div>
+        </div>
+        <div class="w-50">
+            <h5>Credential Information</h5>
+            <div class="mt-2">
+                <label class="form-label" for="userName">Username* :</label>
+                <input type="text" id="userName" class="form-control" name="userName" asp-for="UserName" />
+                <span class="text-danger">@Html.ValidationMessageFor(model => model.UserName)</span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <input type="submit" class="btn btn-outline-primary" value="Submit" />
+</form>
