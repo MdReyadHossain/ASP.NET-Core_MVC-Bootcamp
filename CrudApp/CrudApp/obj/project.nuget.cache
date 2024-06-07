@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CJve5rGjoRiZar+wdY1T47YKbfYmp31elEb6kdO2B3MdJ0BzKqBl3IQqRGwVRjkmRNgdqpzV0A/HEcR2r9Jnmw==",
+  "dgSpecHash": "UOuUDX2OPsM/zAnFJ2mdtnwDF3a23hExtXfhgRFBNzPzfqkBiD8ic+rNQOp90bcW4pYv90xkDIXUpYyZg2FdCw==",
   "success": true,
   "projectFilePath": "J:\\Study\\Coding\\ASP .NET Core\\MVC\\CrudApp\\CrudApp\\CrudApp.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\reyad\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\reyad\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\reyad\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\reyad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\reyad\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\reyad\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\reyad\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
