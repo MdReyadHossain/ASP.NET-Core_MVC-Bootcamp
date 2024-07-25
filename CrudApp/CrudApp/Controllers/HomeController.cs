@@ -119,6 +119,11 @@ namespace CrudApp.Controllers
 
                     TempData["success"] = "Login Successfull!";
                     ModelState.Clear();
+
+                    string returnUrl = HttpContext.Request.Query["returnUrl"];
+
+                    if (!String.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
+                        return Redirect(returnUrl);
                     return RedirectToAction("UserList", "Admin");
                 }
             }
