@@ -48,8 +48,7 @@ namespace CrudApp.Controllers
                         cmd.ExecuteNonQuery();
                         TempData["message"] = "Database Created Successfully";
 
-                        string newConnectionString = AuthConstant.GET_CONNECTION_STRING(database.Name);
-                        UpdateAppSettings(newConnectionString);
+                        _configuration["ConnectionStrings:UserPortal"] = AuthConstant.GET_CONNECTION_STRING(database.Name); ;
                     }
                     catch (SqlException e)
                     {
@@ -80,12 +79,14 @@ namespace CrudApp.Controllers
             var json = System.IO.File.ReadAllText(appSettingsPath);
             var jsonObj = JObject.Parse(json);
 
-            // Update the UserPortal connection string
+            _configuration["ConnectionStrings:UserPortal"] = newConnectionString;
+
+            /*// Update the UserPortal connection string
             jsonObj["ConnectionStrings"]["UserPortal"] = newConnectionString;
 
             // Write the updated JSON back to the appsettings.json file
             string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
-            System.IO.File.WriteAllText(appSettingsPath, output);
+            System.IO.File.WriteAllText(appSettingsPath, output);*/
         }
     }
 }
