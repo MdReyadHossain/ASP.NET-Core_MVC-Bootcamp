@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "./CrudApp/Dockerfile"
+dockerfilePath = "./CrudApp/docker"
 
 [deploy]
 startCommand = "./CrudApp"
