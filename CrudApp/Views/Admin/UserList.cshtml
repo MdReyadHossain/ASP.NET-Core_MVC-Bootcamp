@@ -1,0 +1,42 @@
+﻿@{
+    if (TempData["success"] != null)
+    {
+        <p class="alert alert-success"><i class="fa-solid fa-circle-check"></i> @TempData["success"]</p>
+    }
+}
+<h3>Active Users</h3>
+<table class="table">
+    <tr class="text-center">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact Number</th>
+        <th>Username</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr class="text-center">
+            <td>@user.Id</td>
+            <td>@user.Name</td>
+            <td><a href="mailto:@user.Email">@user.Email</a></td>
+            @if (user.Phone != "")
+            {
+                <td><a href="tel:@user.Phone">@user.Phone</a></td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+            <td>@user.UserName</td>
+            <td>
+                <a class="btn btn-outline-success" asp-controller="Admin" asp-action="EditUser" asp-route-uid="@user.Uid">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </a>
+                <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteUser" asp-route-isUserList=true asp-route-uid="@user.Uid">
+                    <i class="fa-solid fa-trash"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

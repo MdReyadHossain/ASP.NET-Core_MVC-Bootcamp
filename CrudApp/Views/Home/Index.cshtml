@@ -1,0 +1,23 @@
+﻿@model CrudApp.DTOs.DatabaseDTO
+@{
+    ViewData["Title"] = "Home Page";
+    if (TempData["success"] != null)
+    {
+        <p class="alert alert-success"><i class="fa-solid fa-circle-check"></i> @TempData["success"]</p>
+    }
+    if (TempData["error"] != null)
+    {
+        <p class="alert alert-danger"><i class="fa-solid fa-circle-exclamation"></i> @TempData["error"]</p>
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <form method="post" asp-action="DeleteDatabase" asp-controller="Database">
+        <input type="text" class="form-control" asp-for="Name" placeholder="Database Name..." />
+
+        <input type="submit" class="btn btn-outline-danger" value="Delete" />
+    </form>
+</div>
