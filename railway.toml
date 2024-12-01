@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./CrudApp/Dockerfile"
+
+[deploy]
+startCommand = "./CrudApp"
+restartPolicyType = "always"
+healthcheckPath = "/health"
